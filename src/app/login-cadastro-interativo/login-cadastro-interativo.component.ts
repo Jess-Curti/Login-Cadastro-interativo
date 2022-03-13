@@ -9,7 +9,7 @@ export class LoginCadastroInterativoComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }

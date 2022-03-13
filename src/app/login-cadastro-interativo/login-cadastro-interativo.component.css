@@ -1,3 +1,6 @@
+/* ---------------------------------------- Geral ------------------------------------------- */
+
+
 h1{
     font-weight: 900;
 }
@@ -32,11 +35,19 @@ placeholder {
     font-style: italic;
 }
 
-/* ----------------------------------------------------------------------------------- */
+/* ---------------------------------------- Cadastrar ------------------------------------------- */
 
-#bgCadastrar {
+.voltarCad {
+    position: fixed;
+    top: 15px;
+    font-weight: bold;
+    font-size: 16pt;
+  }
+
+#cadastrar {
   background-image: url("../../assets/Imagens/bg-cadastrar@2x.png");
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,11 +85,19 @@ placeholder {
   color: #000;
 }
 
-/* ----------------------------------------------------------------------------------- */
+/* --------------------------------------- Entrar -------------------------------------------- */
+.voltarEntrar {
+    position: fixed;
+    top: 15px;
+    right: 30px;
+    font-weight: bold;
+    font-size: 16pt;
+}
 
-#bg {
+#entrar {
     background-image: url("../../assets/Imagens/Login@2x.png");
-    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,16 +131,7 @@ placeholder {
     box-shadow: 0 3px 6px 0 #00000029;
 }
 
-#usuario {
-    border-radius: 35.5px;
-    box-shadow: 0 3px 6px 0 #00000029;
-    background-color: #fffdf7c2;
-    border: transparent;
-    font-style: italic;
-    font-size: small;
-}
-
-#senha {
+#input {
     border-radius: 35.5px;
     box-shadow: 0 3px 6px 0 #00000029;
     background-color: #fffdf7c2;
@@ -159,6 +169,8 @@ placeholder {
     background-color: #fffdf7bf;
     border: transparent;
 }
+
+/* ----------------------------------------------------------- Redes Sociais --------------------------------------------------------------- */
 
 .link-midia-social:not(:first-child){
     margin-left: 10px;
@@ -204,6 +216,7 @@ placeholder {
     line-height: 40px;
     text-align: center;
     color: #868788;
+
 }
 
 .linkedin:hover {
@@ -223,9 +236,11 @@ placeholder {
 /* --------------------------------------------------------------------------- */
 
 .cadastro {
+    position: absolute;
     z-index: 2;
 }
 
 .login {
+    position: relative;
     z-index: -1;
 }

@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginCadastroInterativoComponent } from './login-cadastro-interativo/login-cadastro-interativo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginCadastroInterativoComponent
   ],
   imports: [
     BrowserModule,
